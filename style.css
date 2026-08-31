@@ -410,3 +410,81 @@ footer{text-align:center;padding:30px;color:#777}
     height:260px;
   }
 }
+/* ===== CREATIVE INTEREST STRIP ===== */
+
+.marquee-strip{
+  padding:28px 8%;
+  background:rgba(255,255,255,.55);
+  border-top:1px solid rgba(234,223,240,.8);
+  border-bottom:1px solid rgba(234,223,240,.8);
+  backdrop-filter:blur(12px);
+}
+
+.interest-strip{
+  max-width:1200px;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  flex-wrap:wrap;
+}
+
+.interest-label{
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:1.8px;
+  color:#777080;
+  margin-right:6px;
+}
+
+.interest-pill{
+  padding:10px 17px;
+  border-radius:30px;
+  font-size:13px;
+  font-weight:700;
+  border:1px solid white;
+  box-shadow:0 8px 22px rgba(60,40,100,.08);
+  transition:.3s ease;
+}
+
+.interest-pill:hover{
+  transform:translateY(-4px);
+}
+
+.pink-pill{
+  background:#ffe0ef;
+  color:#e7358c;
+}
+
+.blue-pill{
+  background:#dfe8ff;
+  color:#466eea;
+}
+
+.yellow-pill{
+  background:#fff1ae;
+  color:#9a7800;
+}
+
+.purple-pill{
+  background:#eadfff;
+  color:#7852d8;
+}
+
+@media(max-width:600px){
+  .interest-strip{
+    gap:8px;
+  }
+
+  .interest-label{
+    width:100%;
+    text-align:center;
+    margin-bottom:5px;
+  }
+
+  .interest-pill{
+    font-size:12px;
+    padding:9px 13px;
+  }
+}
