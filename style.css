@@ -127,3 +127,22 @@ footer{text-align:center;padding:30px;color:#777}
 .hero-card{transform:none}
 .section{padding:80px 6%}
 }
+/* PROFILE PHOTO */
+.profile-photo{
+  width:150px;
+  height:150px;
+  margin:0 auto 25px;
+  border-radius:50%;
+  padding:5px;
+  background:linear-gradient(135deg,var(--pink),var(--yellow),var(--blue));
+  box-shadow:0 15px 40px #0004;
+}
+
+.profile-photo img{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+  border-radius:50%;
+  border:4px solid #19172a;
+}
